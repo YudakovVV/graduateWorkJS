@@ -1,17 +1,16 @@
-const path = require('path');
-
-module.exports={
-  context: path.resolve(__dirname, 'src'),
-  entry:'./index.js',
-  output:{
-    filename: 'js/main.js',
-    path: path.resolve(__dirname, 'dist')
-  },
-  devServer: {
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+module.exports = {
+    mode: 'development',
+    entry: './index.js',
+    devServer: {
+        liveReload: true,
         hot: true,
-        static: {
-            directory: './dist',
-            watch: true
-        }
-    }
-}
+        open: true,
+        static: ['./'],
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './index.html'
+        })
+    ]
+};
