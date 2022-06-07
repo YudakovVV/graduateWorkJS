@@ -8,6 +8,5 @@ const forms = () => {
     telInput.addEventListener('input', (e) => {
         telInput.value = e.target.value.replace(/[^0-9+]/ig, '')
     })
-    
 }
 export default forms
