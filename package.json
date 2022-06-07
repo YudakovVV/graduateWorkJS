@@ -1,27 +1,25 @@
 {
-  "name": "graduateWorkJS",
+  "name": "graduateworkjs",
   "version": "1.0.0",
-  "description": "Название проекта: graduateWorkJS",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode=production",
+    "build": "webpack",
     "watch": "webpack --watch --mode=development",
-    "start": "webpack-dev-server --open --port 8080"
+    "start": "webpack serve --mode=development --open"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/YudakovVV/graduateWorkJS.git"
   },
   "author": "Vladislav Yudakov",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/YudakovVV/graduateWorkJS/issues"
   },
-  "homepage": "",
-  "dependencies": {
-    "html-webpack-plugin": "^5.5.0",
+  "homepage": "https://github.com/YudakovVV/graduateWorkJS#readme",
+  "devDependencies": {
     "webpack": "^5.73.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.1"
+    "webpack-cli": "^4.9.2"
   }
 }

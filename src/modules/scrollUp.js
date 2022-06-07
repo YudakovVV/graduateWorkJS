@@ -1,4 +1,4 @@
-export const scrollUp = () => {
+const scrollUp = () => {
     const imgUp = document.querySelector('img.up')
     const serviceNode = document.querySelector('#services')
     const servicePositionTop = serviceNode.getBoundingClientRect().top
@@ -27,4 +27,5 @@ export const scrollUp = () => {
         })
     })
 }
+export default scrollUp
 
