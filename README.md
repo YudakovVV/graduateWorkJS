@@ -1,3 +1,1 @@
-# webpack
-
-# graduateWorkJS
+# Название проекта: graduateWorkJS
