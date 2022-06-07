@@ -21,6 +21,6 @@ const slider = () => {
         newSlide();
         timerId = setTimeout(tick, 3000);
     }, 3000);
-    console.log("test");
+    
 }
 export default slider

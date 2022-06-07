@@ -1,1 +1,3 @@
-# Дипломный проект JS Юдаков
+# webpack
+
+# graduateWorkJS
