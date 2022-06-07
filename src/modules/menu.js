@@ -1,4 +1,4 @@
-export const menu = (e) => {
+const menu = (e) => {
     const smoothLinks = document.querySelectorAll('a[href^="#"]')
     for (let smoothLink of smoothLinks) {
         smoothLink.addEventListener('click', function (e) {
@@ -12,3 +12,4 @@ export const menu = (e) => {
         })
     }
 }
+export default menu

@@ -1,4 +1,4 @@
-export const forms = () => {
+const forms = () => {
     const nameInput = document.querySelector('.form-control')
     const telInput = document.querySelector('.tel')
 
@@ -8,4 +8,6 @@ export const forms = () => {
     telInput.addEventListener('input', (e) => {
         telInput.value = e.target.value.replace(/[^0-9+]/ig, '')
     })
+    
 }
+export default forms

@@ -1,5 +1,5 @@
 
-export const slider = () => {
+const slider = () => {
     let sliderBlock = document.querySelector('.top-slider')
 
     for (const element of sliderBlock.children) {
@@ -21,6 +21,6 @@ export const slider = () => {
         newSlide();
         timerId = setTimeout(tick, 3000);
     }, 3000);
-
+    
 }
-
+export default slider
