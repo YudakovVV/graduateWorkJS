@@ -1,5 +1,5 @@
 import modalHandler from "./modules/modalHandler"
-import modalHandlers from "./modules/modalHandlers"
+//import modalHandlers from "./modules/modalHandlers"
 
 //import menu from "./modules/menu"
 import forms from "./modules/forms"
@@ -13,7 +13,7 @@ modalHandler('.mobile-menu .callback-btn', 'block')
 modalHandler('.header .callback-btn', 'block')
 modalHandler('.modal-close', 'none')
 modalHandler('.quest-section .button-services', 'block')
-modalHandlers('.services-carousel .element', 'block')
+modalHandler('.services-carousel .element', 'block')
 //menu()
 forms()
 //slider()
