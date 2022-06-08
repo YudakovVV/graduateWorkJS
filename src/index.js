@@ -6,8 +6,8 @@
 // import { sendForm } from "./modules/sendForm"
 //import slider from "./modules/slider"
 //import scrollUp from "./modules/scrollUp"
-import accordeon from "./modules/accordeon"
-
+//import accordeon from "./modules/accordeon"
+import carousel from "./modules/carusel"
 
 //modalHandler('.mobile-menu .callback-btn', 'block')
 //modalHandler('.header .callback-btn', 'block')
@@ -19,5 +19,6 @@ import accordeon from "./modules/accordeon"
 // sendForm()
 //slider()
 //scrollUp()
-accordeon()
+//accordeon()
+carousel()
 
